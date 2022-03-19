@@ -35,7 +35,7 @@ public class App {
     public int getRandomNumber() {
         // chosen by fair dice roll.
         // guaranteed to be random
-        Random random = new Random();
-        return random.nextInt();
+        final int number = 4;
+        return number;
     }
 }
